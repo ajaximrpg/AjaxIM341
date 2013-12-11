@@ -1,0 +1,65 @@
+///////////////////////////////////
+//         ajax im 3.41          //
+//    AJAX Instant Messenger     //
+//   Copyright (c) 2006-2008     //
+//    http://www.ajaxim.com/     //
+//   Do not remove this notice   //
+///////////////////////////////////
+
++---------------------------------------------------------------------+
+| Contributions                                                       |
++---------------------------------------------------------------------+
+|== Source Code ======================================================|
+|                                                                     |
+| * Joshua Gross                                                      |
+|   Started the AjaxIM project. Created all releases up to 3.3 alone! |
+|   - Framework                                                       |
+|     - Everything not listed                                         |
+|                                                                     |
+| * Benjamin Hutchins                                                 |
+|   Joined the AjaxIM project at version 3.3 and helped give the      |
+|   entire project a push.                                            |
+|   - Auto away                                                       |
+|   - Buddy profiles                                                  |
+|   - Buddy icons                                                     |
+|   - Lingo replacement                                               |
+|   - Context/RightClick menus                                        |
+|   - Status changes in chats                                         |
+|   - Update.php                                                      |
+|   - Various other contributions                                     |
+|                                                                     |
+|                                                                     |
+|== Language Packs ===================================================|
+|                                                                     |
+|   Contributor                                              Language |
+| ------------------------------------------------------------------- |
+| * Hilton Perantunes                            Brazilian Portuguese |
+| * JulesJ (http://www.julesj.nl/blog/)                         Dutch |
+| * Léonard Beaud                                              French |
+| * YNStudios.com                                              German |
+| * Matteo Cisilino (http://www.sitonerd.com)                 Italian |
+| * Mayu Shimizu (http://www.myudesign.com)                  Japanese |
+| * Taekyuni (http://www.gaerae.com)                           Korean |
+| * Behrouz Pooladrag (http://www.iflashlord.com)     Persian (Farsi) |
+| * Grigoriy Korolev                                          Russian |
+| * ???                                            Simplified Chinese |
+| * Victor Ortega                                             Spanish |
+| * Meo Meo?                                               Vietnamese |
+| * Feyzullah Ceylan (http://www.gencsinsen.com)              Turkish |
+| * ???                                                        Arabic |
+| * ???                                                     Bulgarian |
+| * Pedro Morgado                                 Portugal Portuguese |
+| * Steven Yeh                                    Traditional Chinese |
+|                                                                     |
+|                                                                     |
+|== Libraries ========================================================|
+|                                                                     |
+|   Contributor                                               Library |
+| ------------------------------------------------------------------- |
+| * Sam Stephenson                                          Prototype |
+| * Sébastien Gruhier                          Prototype Window Class |
+| * Scott Schiller                                      SoundManager2 |
+| * Dan Webb                                       Prototype DomReady |
+| * Paul Johnston                                      MD5 Algorithms |
+|                                                                     |
++---------------------------------------------------------------------+

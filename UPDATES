@@ -1,0 +1,250 @@
+version 3.41
+-------------------------
+- Buddy List
+  > Fixed buddy removal
+ 
+- General
+  > Other minor fixes
+  
+version 3.4
+-------------------------
+- General
+  > Fixed popup.php Include Path, Bold, Italic, and Underline errors (Issue #116, Issue #111, Issue #91).
+  > Added option to disable the register ability.
+  > Multiple releases (YUI Compression, Full Source).
+
+- Buddy List
+  > Blocked buddies are now blocked when they should be (Issue #112).
+  > Added buddy icons (Issue #92).
+  > Added context/right-click menus (Issue #12).
+  > Added buddy profiles (Issue #13).
+
+- Instant Messaging
+  > Added Lingo-Replacement feature, can be used with multiple languages (Issue #127).
+
+- Chat
+  > Buddy status changes are shown in chat window.
+  > Custom timestamps now used in chat as well.
+
+- Admin
+  > User search now lists users' emails.
+  > Created update.php to update your AjaxIM installation from version 3.3 to 3.4.
+  > Created test-uploads.php to allow you to test your server for the ability to upload files.
+  > Created php.ini.sample. If you need a php.ini, just rename this to php.ini.
+
+- Miscellaneous
+  > Added auto-away/auto-idle feature (Issue #124).
+  > Fixed use of &, <, and > symbols (Issue #101).
+  > Fixed use of new lines (Issue #118).
+  > Added Shift+Enter shortcut to add a newline.
+  > Various minor issues.
+
+
+version 3.3
+-------------------------
+- General
+  > No more PHP file for languages, all language information is stored in Javascript (Issues #40 & 61)
+  > Language files are loaded dynamically and can be switched by user before login (Issues #40 & 61)
+  > index.php is now index.html, as there is now no PHP in the index file
+
+- Buddy List
+  > Fixed issue regarding buddies and letter casing (Issue #38)
+
+- Instant Messaging
+  > Sounds fixed (Issue #42)
+  > Timestamp format is now fully configurable (Issue #16)
+
+- Chat
+  > Selecting/hovering over users in the chatlist fixed (Issue #81)
+  > Rooms can now be predefined for the "Join Room" chatlist (Issue #78)
+
+- Admin
+  > Added previously nonexistent "Make Admin" PHP function (Issue #24)
+
+- Miscellaneous
+  > Fixed error when "Sign On" button clicked a second time (Issue #3)
+  > Various minor issues (Issue #60)
+  > Page title is now modifiable via config.js (Issue #21)
+
+
+version 3.22
+-------------------------
+- Buddy List
+  > "Remove buddy" fixed
+
+- Chat
+  > Room list style issue fixed
+
+- Miscellaneous
+  > "Register" dialog title now changes to proper language
+  > Users can register and login with characters of any case (upper/lower) and it will automatically be fixed
+  
+- Admin
+  > Fixed error involving alternate languages and the "Search Type" field
+
+version 3.21
+-------------------------
+- Miscellaneous
+  > Missed a couple of strings for localization
+  > Fixed issue with installer on some hosts (e.g., GoDaddy)
+  > Login/Register/Forgot Pass no longer produce error in IE7
+  
+version 3.2
+-------------------------
+- General
+  > MAJOR overhaul of the code -- everything (PHP and JS) is now object-oriented instead of procedural
+  > Many functions modified to make better use of the Prototype library
+  > Multiple language support (need translators!)
+  > PHP-based sessions implemented, so the username and password isn't sent on every request
+  > Many minor GUI changes
+  > Buttons no longer separate images; buttons are now boilerplate images + text
+  > Code commented more thoroughly
+  > Proper theming system -- themes are bundled into folders instead of all over the place
+  > New dark theme!
+  
+- Instant Messaging
+  > Popout window now more stable
+
+- Buddy List
+  > Fixed issue with selecting another buddy after deleting one
+  > Buddylist database structure converted to be in a separate table
+  > Ability to block/unblock users
+
+- Chat
+  > Userlist added, now displays all users in a chatroom
+  > Room list added to the "join room" dialog
+  > System modified to fix potential bug of grabbing multiples of the same message from the database
+
+- Admin Panel
+  > Basic (beta) admin panel added. Supports searching for users, banning, kicking, and making/removing admin
+
+- Miscellaneous
+  > Fixed numerous small bugs
+
+version 3.1
+-------------------------
+- General
+  > More user-friendly install script
+  > Database table names should no longer conflict with existing tables in a database
+
+- Instant Messaging
+  > Full unicode support!
+
+- Miscellaneous
+  > Fixed numerous small bugs
+  > Optimized script
+  > New JSON PHP class
+  > Minor memory leak fixed
+
+version 3.0
+-------------------------
+- General
+  > Event-based system replaces sending buddylist to client each ping
+  > Windows can be focused and defocused
+  > Away message choices now have icons (for usability)
+  > Completely replaced login/registration/forgot password screen
+  > Toolbars have mouseover & mousedown images (for usability)
+  > No more modal windows (preventing you from doing anything else while they were open -- Add Buddy, etc)
+
+- User status
+  > "Friends only" mode so only users on the user's buddylist can contact the user
+  > "Invisible" mode lets the user look as if he/she is offline, but can still chat
+
+- Chatrooms
+  > Finally! Multi-user chatrooms.
+  > Joined chatrooms appear as groups on the buddylist, with the chatroom users in that group
+
+- Instant Messaging
+  > Font sizes!
+  > Font colors!
+  > Emoticon list
+  > Textbox is now multiline for better readability
+
+- Detachable windows
+  > Click the "detach" button (next to the "minimize" button) to popout the IM/chatroom to a separate window
+
+- Bug fixes
+  > Fixed auto-url linking
+  > IM length limit of 1500 characters set (prevents enormous MySQL inserts)
+  > No more login screen scrollbars issue in Safari
+  > Minimize button on buddylist moved to less awkard location
+  
+version 2.53
+-------------------------
+- Bug fixes
+  > Non-stop away message sending issue when IMing yourself
+
+version 2.52
+-------------------------
+- Client/Server Communication
+  > Modified XMLHTTPRequest object creation, should improve speed in the browser
+
+version 2.51
+-------------------------
+- Bug fixes
+  > Fixed minor scrolling and focus issues in IM windows
+
+version 2.5
+-------------------------
+- Bug fixes
+  > Won't send blank IM messages
+  > Away message list no longer falls behind the buddylist
+  > Fixed the "Remove User/Group window not appearing" issue
+  > Links in IM sessions now open in a new window, instead of the same window
+  > Various other small bugs and code cleanup
+
+- Instant Messaging
+  > IM sounds: sounds when a message is received or sent
+  > Emoticons!
+  > Ability to change the text font
+
+version 2.02
+-------------------------
+- Safari support!
+- IM window focus issue fixed
+- Dialog alert style bug fixed
+
+version 2.01
+-------------------------
+- Opera support!
+- Enter key works on login form now
+
+version 2.0
+-------------------------
+- Better windowing system
+  > Less clunky
+  > Resizable windows
+  > Smoother movement
+
+- Updated buddy list
+  > Removed drag/drop (didn't work well)
+  > Groups!
+  > Mouse over instead of selection
+  > Window auto-resizes and moves when browser is resized
+
+- Chat
+  > History - shows past conversations with a person throughout the same session
+  > Timestamp simplified
+
+- General
+  > Removed "menu"
+  > Menu functions added to buddy list window
+
+- Javascript
+  > Replaced XML with JSON (bandwidth-saving/faster processing) 
+  > Many, many bugfixes
+  > Configurable options added
+  > Fixed major issue of lagginess when IMing with many buddies
+
+- PHP
+  > Cleaned up source
+  > XML replaced with JSON (see Javascript section)
+  > Bugfixes
+
+- MySQL
+  > Buddylists stored using JSON (for groups)
+
+
+version 1.0
+-------------------------
+- Initial Release

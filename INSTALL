@@ -1,0 +1,25 @@
+///////////////////////////////////
+//         ajax im 3.41          //
+//    AJAX Instant Messenger     //
+//   Copyright (c) 2006-2008     //
+//    http://www.ajaxim.com/     //
+//   Do not remove this notice   //
+///////////////////////////////////
+
+Installation
+-----------------------------------
+1. Configure SQL information in config-sample.php
+
+2. Rename config-sample.php to config.php
+
+3. Configure options in config.js (in the 'js' folder)
+
+4. Upload all files to your server.
+
+5. CHMOD buddyicons/ to 0777.
+
+6. Run install.php in your browser of choice and follow the instructions.
+
+7. Delete install.php and update.php!
+
+8. Done!

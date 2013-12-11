@@ -1,0 +1,19 @@
+///////////////////////////////////
+//         ajax im 3.41          //
+//    AJAX Instant Messenger     //
+//   Copyright (c) 2006-2008     //
+//    http://www.ajaxim.com/     //
+//   Do not remove this notice   //
+///////////////////////////////////
+
+About
+-----------------------------------
+ajax im ("asynchronous javascript and xml instant messenger") is a browser-based instant messaging client. It uses the XMLHTTPRequest object in JavaScript to send and receive commands to and from the server. No refreshing of the page is ever needed for this "web application" to work, as everything is updated in real-time via JavaScript.
+
+In versions 2 and up, no XML is actually used (instead, it has been replaced with "JSON"), but for brand purposes, the name has been kept. It still uses the XMLHTTPRequest object, so the name does hold some validity.
+
+Credits
+-----------------------------------
+ajax im makes use of a number of Javascript libraries and functions to build its functionality. All such code is labeled and copyrighted to their creators.
+
+All other code is copyright (c) unwieldy studios / Joshua Gross
